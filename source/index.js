@@ -1,3 +1,3 @@
-export Article from "./Article";
-export Event from "./Event";
-export User from "./User";
+export { default as Article } from "./Article";
+export { default as Event } from "./Event";
+export { default as User } from "./User";

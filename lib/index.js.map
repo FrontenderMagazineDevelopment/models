@@ -1,1 +1,0 @@
-{"version":3,"sources":["../source/index.js"],"names":["Article","Event","User"],"mappings":"0bAAOA,O,2BACAC,K,yBACAC,I","file":"index.js","sourcesContent":["export Article from \"./Article\";\nexport Event from \"./Event\";\nexport User from \"./User\";\n"]}
