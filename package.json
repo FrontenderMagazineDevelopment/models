@@ -17,8 +17,7 @@
     "build:doc": "documentation build src/*.js* -o public -f html",
     "lint": "eslint ./source/** --ext .js --color -f stylish --fix",
     "minify": "babel-minify lib/*.js -d lib --removeConsole --removeDebugger",
-    "precommit": "git add . -A && lint-staged",
-    "commitmsg": "commit-msg ${GIT_PARAMS}"
+    "precommit": "git add . -A && lint-staged"
   },
   "lint-staged": {
     "*.{jsx,js}": [
@@ -39,32 +38,33 @@
   "author": "Anton Nemtsev <thesilentimp@gmail.com> (http://silentimp.info/)",
   "license": "CC-BY-4.0",
   "dependencies": {
-    "mongoose": "^5.4.19"
+    "mongoose": "^5.8.11"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.3.3",
-    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
-    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-    "@babel/plugin-syntax-export-default-from": "^7.2.0",
-    "@babel/plugin-transform-runtime": "^7.2.0",
-    "@babel/preset-env": "^7.3.1",
-    "@plasma-platform/tm-message-hook": "^1.0.1",
-    "babel-eslint": "^10.0.1",
-    "babel-minify": "^0.5.0",
-    "documentation": "^9.3.1",
-    "eslint": "^5.14.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^4.0.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jest": "^22.3.0",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-react": "^7.12.4",
-    "husky": "^0.14.3",
-    "lint-staged": "^5.0.0",
-    "npm-run-all": "^4.1.2",
-    "prettier": "^1.16.4",
-    "rimraf": "^2.6.2"
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-export-namespace-from": "^7.8.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-syntax-export-default-from": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "acorn": "^7.1.0",
+    "babel-eslint": "^10.0.3",
+    "babel-minify": "^0.5.1",
+    "documentation": "^12.1.4",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.2",
+    "husky": "^4.2.1",
+    "lint-staged": "^10.0.7",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.1",
+    "typescript": "^3.7.5"
   }
 }
